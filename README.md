@@ -1,20 +1,20 @@
-#Movie-Recommender-System---Content-based-recommender-system
+# Movie Recommender System : Content based recommender system
 
-#Aim
+# Aim
 Build movie recommender system using content based recommender system
 
-#Database : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+# Database : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 link: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/download?datasetVersionNumber=2
 
-#About Dataset
+# About Dataset
 
-#Background
+# Background
 
 What can we say about the success of a movie before it is released? Are there certain companies (Pixar?) that have found a consistent formula? Given that major films costing over $100 million to produce can still flop, this question is more important than ever to the industry. Film aficionados might have different interests. Can we predict which films will be highly rated, whether or not they are a commercial success?
 
 This is a great place to start digging in to those questions, with data on the plot, cast, crew, budget, and revenues of several thousand films.
 
-#Data Source Transfer Summary
+# Data Source Transfer Summary
 
 We (Kaggle) have removed the original version of this dataset per a DMCA takedown request from IMDB. In order to minimize the impact, we're replacing it with a similar set of films and data fields from The Movie Database (TMDb) in accordance with their terms of use. The bad news is that kernels built on the old dataset will most likely no longer work.
 
@@ -106,7 +106,7 @@ Are the budgets and revenues all in US dollars? Do they consistently show the gl
 
 This dataset hasn't yet gone through a data quality analysis. Can you find any obvious corrections? For example, in the IMDb version it was necessary to treat values of zero in the budget field as missing. Similar findings would be very helpful to your fellow Kagglers! (It's probably a good idea to keep treating zeros as missing, with the caveat that missing budgets much more likely to have been from small budget films in the first place).
 
-#Inspiration
+# Inspiration
 
 Can you categorize the films by type, such as animated or not? We don't have explicit labels for this, but it should be possible to build them from the crew's job titles.
 
